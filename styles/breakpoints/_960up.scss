@@ -25,3 +25,27 @@ Stylesheet: 960px以上のモニタで適用
 .pb-lg {
     padding-bottom: 150px !important;
 }
+
+.footer {
+    &__li{
+        justify-content:flex-start;
+        padding: 10px;
+
+        & > a {
+            color:$cSubTitle;
+        }
+    }
+
+}
+
+.header {
+    &__nav {
+        display: block;
+    }
+}
+
+.mobile-menu{
+    &__btn {
+        display: none;
+    }
+}

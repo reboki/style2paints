@@ -9,6 +9,12 @@ body{
 font-family: 'Kameron','Noto Sans JP', sans-serif;
 
 }
+
+img {
+    max-width: 100%;
+    vertical-align: bottom;
+  }
+
 .font-sm {
     font-size: 14px;
 
@@ -44,6 +50,17 @@ font-family: 'Kameron','Noto Sans JP', sans-serif;
     max-width: $contentMaxWidth;
 }
 
+.main-title {
+    @extend .font-lg;
+    font-weight: 600;
+    margin-bottom: 0;
+    display: block;
+  }
+  .sub-title {
+    @extend .font-sm;
+    color: $cSubTitle;
+  }
+
 .flex{
     display:flex;
     flex-direction: column;
@@ -59,6 +76,61 @@ font-family: 'Kameron','Noto Sans JP', sans-serif;
 
     &__paint {
         color:blue;
+    }
+}
+
+#content {
+    padding-top: $navHeight;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $navHeight;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+
+    &.triggered {
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 10px 0 25px -10px rgba(0, 0, 0, 0.5);
+      }
+
+    &__nav {
+        display: none;
+    }
+
+    &__ul {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    &__li {
+        margin-left: 20px;
+
+        & > a {
+            color:$cBlack;
+            text-decoration: none !important;
+        }
+    }
+
+    &.logo {
+        justify-content: center;
+        font-size: 38px;
+
+    }
+
+    &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @extend .content-width;
     }
 }
 
@@ -82,7 +154,7 @@ font-family: 'Kameron','Noto Sans JP', sans-serif;
 
     &__li {
         padding: 0;
-        margin: 10px;
+        margin: 50px;
 
         & > a {
             color:$cSubTitle;
@@ -90,8 +162,7 @@ font-family: 'Kameron','Noto Sans JP', sans-serif;
     }
 
     &.logo {
-        justify-content: center;
         font-size: 38px;
-
+        justify-content: center;
     }
 }
