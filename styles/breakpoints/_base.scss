@@ -6,7 +6,7 @@ Stylesheet: ベーススタイル
 
 body{
 
-font-family: 'Kameron','Noto Sans JP', sans-serif;
+font-family: 'Zen Kaku Gothic New', sans-serif;
 
 }
 
@@ -16,7 +16,7 @@ img {
   }
 
 .font-sm {
-    font-size: 14px;
+    font-size: 10px;
 
 }
 .font-md {
@@ -51,7 +51,7 @@ img {
 }
 
 .main-title {
-    @extend .font-lg;
+    @extend .font-md;
     font-weight: 600;
     margin-bottom: 0;
     display: block;
@@ -67,7 +67,7 @@ img {
 }
 
 .logo {
-    font-size: 42px;
+    font-size: 30px;
     display: flex;
 
     &__img {
@@ -75,7 +75,14 @@ img {
     }
 
     &__paint {
-        color:blue;
+        color:$cBlack;
+        margin-right: 70px;
+    }
+
+    &__paint_footer {
+        color:$cBlack;
+        margin-right: 70px;
+        margin-left: 60px;
     }
 }
 
@@ -122,7 +129,7 @@ img {
 
     &.logo {
         justify-content: center;
-        font-size: 38px;
+        font-size: 30px;
 
     }
 
@@ -135,7 +142,7 @@ img {
 }
 
 .footer {
-    padding: 60px 0;
+    padding: auto;
     @extend .content-width;
 
     &__nav {
@@ -154,7 +161,7 @@ img {
 
     &__li {
         padding: 0;
-        margin: 50px;
+        margin: 0px;
 
         & > a {
             color:$cSubTitle;
@@ -164,5 +171,33 @@ img {
     &.logo {
         font-size: 38px;
         justify-content: center;
+        margin-right: 70px;
     }
+}
+
+.cost_info{
+    margin: 0;
+}
+
+.cost_info_content_1{
+    
+}
+
+.cost_info_content_2{
+}
+
+.cost_info_content_3{
+    
+}
+
+.info_style{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info__li{
+    font-size: 12px;
 }
