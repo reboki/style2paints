@@ -51,10 +51,17 @@ img {
 }
 
 .main-title {
-    @extend .font-md;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 5px 4px;
+    border-left: 15px solid #05ccad;
+    background-color: #EFFBF8;
     font-weight: 600;
     margin-bottom: 0;
     display: block;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
   }
   .sub-title {
     @extend .font-sm;
@@ -67,16 +74,18 @@ img {
 }
 
 .logo {
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
 
     &__img {
-        width: 0.7em;
+        width: 1.5em;
     }
 
     &__paint {
+        margin-left: 10px;
         color:$cBlack;
         margin-right: 70px;
+        margin-bottom: 0;
     }
 
     &__paint_footer {
@@ -88,6 +97,10 @@ img {
 
 #content {
     padding-top: $navHeight;
+}
+
+#container {
+    transition: transform 0.5, box-shadow 0.5s;
 }
 
 .header {
@@ -189,4 +202,15 @@ img {
 
 .info__li{
     font-size: 12px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+    & > a {
+        color:$cSubTitle;
+    }
+}
+
+.date{
+    margin-bottom: 0;
+    margin-left: 20px;
 }

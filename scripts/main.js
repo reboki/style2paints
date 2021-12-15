@@ -4,21 +4,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const cb = function (el, inview) {
         if (inview) {
-          const ta = new TweenTextAnimation(el);
-          ta.animate();
+            const ta = new TweenTextAnimation(el);
+            ta.animate();
         }
-      };
-     
-      const so = new ScrollObserver(".tween-animate-title", cb);
-     
-      const _inviewAnimation = function (el, inview) {
+    };
+
+    const so = new ScrollObserver(".tween-animate-title", cb);
+
+    const _inviewAnimation = function (el, inview) {
         if (inview) {
-          el.classList.add("inview");
+            el.classList.add("inview");
         } else {
-          el.classList.remove("inview");
+            el.classList.remove("inview");
         }
-      };
-     
+    };
+
     const so2 = new ScrollObserver(".cover-slide", _inviewAnimation);
 
 
@@ -26,9 +26,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const _navAnimation = function (el, inview) {
         if (inview) {
-            el.classList.remove('triggered');
+            header.classList.remove('triggered');
         } else {
-            el.classList.add('triggered');
+            header.classList.add('triggered');
         }
     }
 

@@ -330,6 +330,7 @@
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
   cursor: pointer;
+  z-index: 200;
 }
 
 .mobile-menu__main {
@@ -446,7 +447,7 @@ img {
   font-size: 10px;
 }
 
-.font-md, .main-title {
+.font-md {
   font-size: 17px;
 }
 
@@ -481,9 +482,17 @@ img {
 }
 
 .main-title {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px 5px 4px;
+  border-left: 15px solid #05ccad;
+  background-color: #EFFBF8;
   font-weight: 600;
   margin-bottom: 0;
   display: block;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 .sub-title {
@@ -501,19 +510,21 @@ img {
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .logo__img {
-  width: 0.7em;
+  width: 1.5em;
 }
 
 .logo__paint {
+  margin-left: 10px;
   color: black;
   margin-right: 70px;
+  margin-bottom: 0;
 }
 
 .logo__paint_footer {
@@ -524,6 +535,13 @@ img {
 
 #content {
   padding-top: 50px;
+}
+
+#container {
+  -webkit-transition: -webkit-transform 0.5, -webkit-box-shadow 0.5s;
+  transition: -webkit-transform 0.5, -webkit-box-shadow 0.5s;
+  transition: transform 0.5, box-shadow 0.5s;
+  transition: transform 0.5, box-shadow 0.5s, -webkit-transform 0.5, -webkit-box-shadow 0.5s;
 }
 
 .header {
@@ -648,6 +666,17 @@ img {
 
 .info__li {
   font-size: 12px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.info__li > a {
+  color: grey;
+}
+
+.date {
+  margin-bottom: 0;
+  margin-left: 20px;
 }
 
 @media (min-width: 480px) {
@@ -692,7 +721,7 @@ Stylesheet: 960px以上のモニタで適用
   .font-sm, .sub-title {
     font-size: 16px;
   }
-  .font-md, .main-title {
+  .font-md {
     font-size: 19px;
   }
   .font-lr {
