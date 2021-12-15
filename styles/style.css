@@ -482,12 +482,11 @@ img {
 }
 
 .main-title {
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 5px;
   padding: 5px 5px 4px;
   border-left: 15px solid #05ccad;
   background-color: #EFFBF8;
-  font-weight: 600;
   margin-bottom: 0;
   display: block;
   margin-left: 5px;
