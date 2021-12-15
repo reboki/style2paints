@@ -640,11 +640,11 @@ img {
 }
 
 .footer.logo {
-  font-size: 38px;
+  font-size: 28px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-right: 70px;
+  margin-right: 80px;
 }
 
 .cost_info {
