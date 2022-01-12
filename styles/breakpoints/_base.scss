@@ -8,7 +8,6 @@ body{
 
 font-family: 'Zen Kaku Gothic New', sans-serif;
 background-color: #fcf8ee;
-
 }
 
 img {
@@ -81,12 +80,29 @@ img {
         width: 1.5em;
     }
 
-    &__paint {
+    &__paint_1{
+        padding-top: 4px;
+        font-size: 10px;
+        margin-left: 10px;
+        color:grey;
+        margin-right: 70px;
+        margin-bottom: 0;
+    }
+
+    &__paint_2{
+        font-size: 23px;
         margin-left: 10px;
         color:$cBlack;
         margin-right: 70px;
         margin-bottom: 0;
         font-weight: 700;
+    }
+
+
+
+    &__title{
+        display: flex;
+        flex-direction: column;
     }
 
     &__paint_footer {
@@ -115,6 +131,7 @@ img {
     display: flex;
     align-items: center;
     z-index: 100;
+    line-height: 1;
 
     &.triggered {
         background-color: rgba(255, 255, 255, 0.9);
@@ -358,4 +375,9 @@ img {
     margin-left: 70px;
 }
 
+.menu_style{
+    font-size: 5px;
+    margin:0 0 0 0;
+    font-weight: bold;
+}
 
