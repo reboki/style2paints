@@ -16,6 +16,10 @@
      object-fit: cover;
 }
 
+.hero {
+  overflow: hidden;
+}
+
 .hero__footer {
   position: absolute;
   left: 50%;
@@ -475,7 +479,7 @@ img {
   padding-bottom: 80px !important;
 }
 
-.content-width, .header__inner, .footer {
+.content-width, .header__inner, .footer, .example {
   width: 90%;
   margin: 0 auto;
   max-width: 1070px;
