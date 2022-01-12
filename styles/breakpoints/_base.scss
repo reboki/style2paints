@@ -109,7 +109,7 @@ img {
     left: 0;
     width: 100%;
     height: $navHeight;
-    background-color: transparent;
+    background-color: white;
     display: flex;
     align-items: center;
     z-index: 100;
@@ -313,5 +313,9 @@ img {
         font-size: 13px;
         color:white;
     }
+}
+
+.houses{
+    background-color: white;
 }
 
