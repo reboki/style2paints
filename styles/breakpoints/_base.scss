@@ -223,6 +223,32 @@ img {
 
 .example{
     margin-bottom: 50px; 
+    display: flex;
+    @extend .content-width;
+    flex-direction: column;
+    height: 100%;
+
+    &__box1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    }
+
+    &__pic{
+        flex:1
+    }
+
+    &__content{
+        flex:1
+
+    }
+
+    &__box2{
+        margin-bottom: 20px;
+        display: flex;
+        box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    }
     
 }
 
@@ -331,3 +357,5 @@ img {
 .logo_adjustment{
     margin-left: 70px;
 }
+
+
