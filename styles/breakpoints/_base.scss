@@ -215,6 +215,18 @@ img {
 }
 
 .example{
-    @extend .content-width;
     
 }
+
+.work{
+    &__inner{
+        @extend .content-width;
+        margin-top: 20px;
+}
+}
+
+.example_image{
+    width:600px;
+    height:200px;
+}
+

@@ -479,7 +479,7 @@ img {
   padding-bottom: 80px !important;
 }
 
-.content-width, .header__inner, .footer, .example {
+.content-width, .header__inner, .footer, .work__inner {
   width: 90%;
   margin: 0 auto;
   max-width: 1070px;
@@ -680,6 +680,15 @@ img {
 .date {
   margin-bottom: 0;
   margin-left: 20px;
+}
+
+.work__inner {
+  margin-top: 20px;
+}
+
+.example_image {
+  width: 600px;
+  height: 200px;
 }
 
 @media (min-width: 480px) {
