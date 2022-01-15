@@ -1015,6 +1015,38 @@ img {
   -webkit-box-shadow: 1px 3px 26px -1px rgba(0, 0, 0, 0.6);
           box-shadow: 1px 3px 26px -1px rgba(0, 0, 0, 0.6);
   text-align: center;
+  -webkit-animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+          animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    -webkit-transform: translateX(180px);
+            transform: translateX(180px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  40%, 100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    -webkit-transform: translateX(180px);
+            transform: translateX(180px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  40%, 100% {
+    opacity: 1;
+  }
 }
 
 .para {
@@ -1079,6 +1111,26 @@ img {
   font-size: 30px;
   margin-top: 10px;
   position: relative;
+}
+
+.anim-box.slidein.is-animated {
+  -webkit-animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+          animation: slideIn 1s cubic-bezier(0.25, 1, 0.5, 1) 1 forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    -webkit-transform: translateX(180px);
+            transform: translateX(180px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  40%, 100% {
+    opacity: 1;
+  }
 }
 
 @media (min-width: 480px) {
