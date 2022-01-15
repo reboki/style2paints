@@ -255,7 +255,7 @@ img {
     }
 
     &__box2{
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         display: flex;
         box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
     }
@@ -389,12 +389,21 @@ img {
     margin-top: 50px;
     margin-bottom: 20px;
     background-color: white;
+
+    &__btnc{
+        margin-left: 100px;
+        left: 3px;
+    }
 }
 
 .houses__btn{
+    @extend .content-width;
     text-align: center;
 }
 
+#button_font{
+    font-size: 14px;
+}
 .logo_adjustment{
     margin-left: 70px;
 }
