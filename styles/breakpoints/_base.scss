@@ -267,13 +267,14 @@ img {
     }
 
     &__p{
+        max-width:100% ;
         height: 146px;
-        width: 134px;
     }
 
     &__content{
         padding: 10px;
         font-size: 12px;
+        font-weight: bold;
         flex:1 
     }
 
