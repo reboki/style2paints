@@ -1017,18 +1017,6 @@ img {
   text-align: center;
 }
 
-.para_2 {
-  background-color: green;
-  -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
-}
-
-.para_3 {
-  background-color: orangered;
-  -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
-}
-
 .para {
   background-color: white;
   font-size: 13px;
