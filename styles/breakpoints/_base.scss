@@ -239,6 +239,7 @@ img {
 }
 
 .example{
+    background-color: #fcf8ee;
     margin-bottom: 50px; 
     display: flex;
     @extend .content-width;
@@ -272,6 +273,7 @@ img {
     }
 
     &__content{
+        background-color: white;
         padding: 10px;
         font-size: 12px;
         font-weight: bold;
