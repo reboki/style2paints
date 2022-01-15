@@ -306,8 +306,10 @@ img {
 }
 
 .reason{
+    height: 1300px;
+    background-image: url(../images/hip-square.png);
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
     
 
     &__head{
@@ -337,6 +339,7 @@ img {
     &__para{
         font-size: 13px;
         margin-top: 20px;
+        
     }
 
     &__ul{
@@ -372,6 +375,7 @@ img {
 }
 
 .para_1{
+    background-color: white;
     padding: 15px;
     font-family: "ヒラギノ明朝 ProN W6", HiraMinProN-W6, HG明朝E, "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
     color: #0058a8;
@@ -458,3 +462,4 @@ img {
     margin-top: 10px;
     position: relative;
 }
+
