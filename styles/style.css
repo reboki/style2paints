@@ -944,10 +944,8 @@ img {
 }
 
 .reason {
-  border: solid 3px #000000;
   margin-top: 20px;
   margin-bottom: 50px;
-  background-color: #EFEEEE .reason __head;
 }
 
 .reason__title {
@@ -994,14 +992,26 @@ img {
   color: black;
 }
 
+.reason__title_style {
+  font-size: 19px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.reason__title_space {
+  margin: 0px 0px 0px 0px;
+}
+
 .para_1 {
+  padding: 15px;
   font-family: "ヒラギノ明朝 ProN W6", HiraMinProN-W6, HG明朝E, "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
   color: #0058a8;
   display: block;
-  font-size: 17px;
+  font-size: 10px;
   margin-bottom: 30px;
-  -webkit-box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 3px 26px -1px rgba(0, 0, 0, 0.6);
+          box-shadow: 1px 3px 26px -1px rgba(0, 0, 0, 0.6);
+  text-align: center;
 }
 
 .para_2 {
@@ -1075,7 +1085,7 @@ img {
 
 .number {
   color: green;
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 10px;
   position: relative;
 }
