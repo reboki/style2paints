@@ -380,6 +380,7 @@ a.btn--tel i {
 
 a.btn--tel i.fa-position-left {
   font-size: 3rem;
+  top: 5px;
   left: 2rem;
 }
 
@@ -845,6 +846,10 @@ img {
   margin-top: 15px;
 }
 
+.cost_info_content_1 {
+  margin-top: 15px;
+}
+
 .info_style {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1049,6 +1054,19 @@ img {
   }
 }
 
+.para_2 {
+  background-color: white;
+  padding: 15px;
+  font-family: "ヒラギノ明朝 ProN W6", HiraMinProN-W6, HG明朝E, "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  color: #0058a8;
+  display: block;
+  font-size: 10px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 1px 3px 26px -1px rgba(0, 0, 0, 0.6);
+          box-shadow: 1px 3px 26px -1px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
 .para {
   background-color: white;
   font-size: 13px;
@@ -1089,6 +1107,7 @@ img {
 }
 
 .houses__btn {
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -1108,7 +1127,7 @@ img {
 
 .number {
   color: green;
-  font-size: 30px;
+  font-size: 29px;
   margin-top: 10px;
   position: relative;
 }
