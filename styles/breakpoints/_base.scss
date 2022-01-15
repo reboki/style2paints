@@ -7,7 +7,7 @@ Stylesheet: ベーススタイル
 body{
 
 font-family: 'Zen Kaku Gothic New', sans-serif;
-background-color: #fcf8ee;
+background-color: white;
 }
 
 img {
@@ -243,21 +243,13 @@ img {
     display: flex;
     @extend .content-width;
     flex-direction: column;
-    height: 100%;
 
     &__box1{
         margin-top: 20px;
         margin-bottom: 20px;
         display: flex;
         box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
-    }
-
-    &__pic{
-        flex:1
-    }
-
-    &__content{
-        flex:1
+        
 
     }
 
@@ -266,6 +258,35 @@ img {
         display: flex;
         box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
     }
+
+
+
+    &__pic{
+        flex:1
+        
+    }
+
+    &__p{
+        height: 146px;
+        width: 134px;
+    }
+
+    &__content{
+        padding: 10px;
+        font-size: 12px;
+        flex:1 
+    }
+
+    &__para{
+        margin-bottom: 0;
+    }
+
+    &__ul{
+        margin-bottom: 0;
+        padding-left:20px;
+    }
+
+
     
 }
 
