@@ -949,8 +949,22 @@ img {
 }
 
 .reason__title {
+  background: #09796c;
+  background: radial-gradient(circle, #09796c 0%, white 0%, #19ebd7 38%, #19ebd7 44%);
+  font-family: "ヒラギノ明朝 ProN W6", HiraMinProN-W6, HG明朝E, "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+  font-size: 20px;
+  font-weight: bold;
   text-align: center;
-  font-size: 30px;
+  text-shadow: #0058a8 0px 0px 6px;
+}
+
+.reason__span {
+  color: #c00;
+  font-size: 80px;
+  margin-top: 10px;
+  position: relative;
+  text-shadow: #fff 1px 1px 1px, #fff -1px 1px 0, #fff 1px -1px 1px, #fff -1px -1px 1px, 0 0 6px #0058a8;
+  top: 20px;
 }
 
 .reason__para {
