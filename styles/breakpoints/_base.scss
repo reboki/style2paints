@@ -318,7 +318,7 @@ img {
     height: 1300px;
     background-image: url(../images/hip-square.png);
     margin-top: 20px;
-    margin-bottom: 50px; 
+    margin-bottom: 20px; 
     
 
     &__head{
@@ -489,6 +489,13 @@ img {
 .number{
     color: white;
     font-size: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.number1{
+    color: green;
+    font-size: 25px;
     margin-top: 10px;
     position: relative;
 }
