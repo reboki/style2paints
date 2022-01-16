@@ -1079,7 +1079,7 @@ img {
 }
 
 .please {
-  margin-top: 25px;
+  margin-top: 80px;
   margin-bottom: 25px;
 }
 
@@ -1112,15 +1112,14 @@ img {
 }
 
 .houses__btn {
+  width: 100%;
   margin-top: 20px;
   text-align: center;
+  height: 60px;
 }
 
 #button_font {
   font-size: 15px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
 }
 
 .logo_adjustment {

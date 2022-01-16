@@ -432,7 +432,7 @@ img {
 
 .please{
     @extend .content-width;
-    margin-top: 25px;
+    margin-top: 80px;
     margin-bottom: 25px;
 
     &__box{
@@ -465,15 +465,16 @@ img {
 }
 
 .houses__btn{
+    width: 100%;
     @extend .content-width;
     margin-top: 20px;
     text-align: center;
+    height: 60px;
 }
 
 #button_font{
 
     font-size: 15px;
-    flex:1
 }
 .logo_adjustment{
     margin-left: 70px;
