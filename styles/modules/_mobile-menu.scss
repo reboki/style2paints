@@ -7,6 +7,7 @@ $cMenuOpen: $cBlack;
     right: 0;
     top: 100px;
     width: 300px;
+    z-index: 999;
 
     &__btn {
         background-color: unset;

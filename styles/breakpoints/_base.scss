@@ -174,9 +174,10 @@ img {
 }
 
 .footer {
+    padding-top: 20px;
+    background-image: url(../images/email-pattern.png);
     margin-bottom: 120px;
     padding: auto;
-    @extend .content-width;
 
     &__nav {
         @extend .flex;
@@ -247,7 +248,7 @@ img {
 }
 
 .example{
-    background-color: #fcf8ee;
+    background-image: url(../images/trees.png);
     margin-bottom: 50px; 
     display: flex;
     @extend .content-width;
@@ -332,6 +333,7 @@ img {
         text-align: center;
         text-shadow: rgb(0, 88, 168) 0px 0px 6px;
         height: 50%;
+        margin-bottom: 10px;
     }
 
     &__span{
@@ -452,7 +454,7 @@ img {
 }
 
 .houses{
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 20px;
     background-color: white;
 
@@ -510,6 +512,7 @@ img {
   }
   
 .area{
+    margin-bottom: 30px;
     &__title{
             text-align: center;
             font-size: 30px;
@@ -533,7 +536,7 @@ img {
     position: absolute;
     bottom: 0;
     height: 100px;
-    background-color: white;
+    background-image: url(../images/email-pattern.png);
     display: flex;
     align-items: center;
     z-index: 200;
