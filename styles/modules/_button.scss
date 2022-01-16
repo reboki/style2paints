@@ -37,13 +37,13 @@ button.btn {
 
 .btn-wrap-pc-sp {
   max-width: 435px;
-  margin: 0 auto 20px;
+  margin: 0 auto 0;
 }
 
 a.btn-pc-sp {
   line-height: 1.4;
 
-  width: 49.5%;
+  width: 80.5%;
   padding: 1.25rem 0;
 
   color: #ffff;
@@ -143,7 +143,7 @@ a.btn-c:hover {
 
   /*テスト表示用*/
   max-width: 435px;
-  margin: 0 auto 20px;
+  margin: 0 auto 0;
 
   -webkit-box-pack: justify;
 
@@ -155,7 +155,7 @@ a.btn-c:hover {
 a.btn-pc-sp {
   line-height: 1.4;
 
-  width: 49.5%;
+  width: 80.5%;
   padding: 1.25rem 0;
 
   color: #ffff;

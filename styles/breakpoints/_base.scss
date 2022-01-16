@@ -176,7 +176,7 @@ img {
 .footer {
     padding-top: 20px;
     background-image: url(../images/email-pattern.png);
-    margin-bottom: 120px;
+    margin-bottom: 80px;
     padding: auto;
 
     &__nav {
@@ -471,7 +471,9 @@ img {
 }
 
 #button_font{
-    font-size: 14px;
+
+    font-size: 15px;
+    flex:1
 }
 .logo_adjustment{
     margin-left: 70px;
@@ -484,8 +486,8 @@ img {
 }
 
 .number{
-    color: green;
-    font-size: 29px;
+    color: white;
+    font-size: 20px;
     margin-top: 10px;
     position: relative;
 }
@@ -536,12 +538,16 @@ img {
     position: absolute;
     bottom: 0;
     height: 100px;
-    background-image: url(../images/email-pattern.png);
+   // background-image: url(../images/email-pattern.png);
     display: flex;
     align-items: center;
     z-index: 200;
     line-height: 1;
 
+}
+
+.flow_pic{
+    margin-top: 10px;
 }
 
 
