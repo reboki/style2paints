@@ -69,7 +69,7 @@
                     </div>
                     <div>
                         <label for="name">お名前（漢字）</label>
-                        <input type="text" id="name" name="name">
+                        <input type="text" id="name" name="name" required>
                     </div>
                     <div>
                         <label for="name">お名前（ひらがな）</label>
@@ -81,7 +81,56 @@
                     </div>
                     <div>
                         <label for="name">住所</label>
-                        <input type="text" id="name" name="name">
+                        〒<input type="text" id="name" name="name">
+                        <select name="sushi">
+                            <option value="magro">北海道</option>
+                            <option value="ika">青森県</option>
+                            <option value="ebi">岩手県</option>
+                            <option value="magro">宮城県</option>
+                            <option value="ika">秋田県</option>
+                            <option value="ebi">山形県</option>
+                            <option value="magro">福島</option>
+                            <option value="ika">茨城県</option>
+                            <option value="ebi">栃木県</option>
+                            <option value="magro">群馬県</option>
+                            <option value="ika">埼玉県</option>
+                            <option value="ebi">千葉県</option>
+                            <option value="ebi">東京都</option>
+                            <option value="ebi">神奈川県</option>
+                            <option value="ebi">山梨県</option>
+                            <option value="ebi">長野県</option>
+                            <option value="ebi">新潟県</option>
+                            <option value="ebi">富山県</option>
+                            <option value="ebi">石川県</option>
+                            <option value="ebi">福井県</option>
+                            <option value="ebi">岐阜県</option>
+                            <option value="ebi">静岡県</option>
+                            <option value="ebi">愛知県</option>
+                            <option value="ebi">三重県</option>
+                            <option value="ebi">滋賀県</option>
+                            <option value="ebi">京都府</option>
+                            <option value="ebi">大阪府</option>
+                            <option value="ebi">兵庫県</option>
+                            <option value="ebi">奈良県</option>
+                            <option value="ebi">和歌山県</option>
+                            <option value="ebi">鳥取県</option>
+                            <option value="ebi">島根県</option>
+                            <option value="ebi">岡山県</option>
+                            <option value="ebi">広島県</option>
+                            <option value="ebi">山口県</option>
+                            <option value="ebi">徳島県</option>
+                            <option value="ebi">香川県</option>
+                            <option value="ebi">愛媛県</option>
+                            <option value="ebi">高知県</option>
+                            <option value="ebi">福岡県</option>
+                            <option value="ebi">佐賀県</option>
+                            <option value="ebi">長崎県</option>
+                            <option value="ebi">熊本県</option>
+                            <option value="ebi">大分県</option>
+                            <option value="ebi">宮崎県</option>
+                            <option value="ebi">鹿児島県</option>
+                            <option value="ebi">沖縄県</option>
+                          </select>
                     </div>
                     <div>
                         <label for="name">塗替えの建物種別</label>
@@ -96,7 +145,7 @@
                         <input type="text" id="name" name="name">
                     </div>
                     <div>
-                        <label for="name">建物の築年数）</label>
+                        <label for="name">建物の築年数</label>
                         <input type="text" id="name" name="name">
                     </div>
                     <div>
@@ -105,6 +154,10 @@
                     </div>
                     <div>
                         <label for="message">ご要望・お問い合わせ</label>
+                    </div>
+                    <div>
+                        <label for="message">写真</label>
+                        <input type="file" name="example" accept="image/jpeg, image/png">
                     </div>
                     <input type="submit" value="送信する">
                 </form>
