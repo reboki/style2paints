@@ -577,9 +577,16 @@ img {
     &__title{
         font-size: 20px;
         text-align: center;
+        font-weight: bold;
     }
 
     &__q{
+        width: 100%;
+        font-weight: 700;
+       // margin-bottom: 5px;
+    }
+
+    &__q1{
         width: 100%;
         font-weight: 700;
         margin-bottom: 10px;
@@ -589,7 +596,13 @@ img {
         padding-top: 20px;
         padding-bottom: 10px;
         border-bottom: 1px solid;
-        border-color: grey;
+        border-color: #ccc;
+    }
+
+    &__cat1{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-color: #ccc;
     }
 
     &__box{
@@ -619,7 +632,7 @@ img {
         padding-bottom:10px;
         color:red;
         font-size: 15px;
-        font-weight: 700;
+        font-weight: 900;
         border-bottom: 1px solid #aaa;
     }
 
@@ -680,4 +693,12 @@ img {
     font-size: 1.2rem;
 }
 
+.adjust_add{
+    width: 50%;
+    margin-left: 8px;
+}
+
+.adjust_space{
+    margin-bottom: 5px;
+}
 

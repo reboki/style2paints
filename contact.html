@@ -55,9 +55,9 @@
                         <section class="question">
                             <div class="question__title">お問い合わせフォーム</div>
                             <form class="question__form" action="/form.php" method="post">
-                                <div class="question__cat">
+                                <div class="question__cat1">
 
-                                    <div class="question__q"><label for="name">お問い合わせ内容<span
+                                    <div class="question__q1"><label for="name">お問い合わせ内容<span
                                                 class="required-mark">必須</span></label></div>
                                     <div class="question__box">
                                         <div class="question__cbox"><input id="money" class="question__check"
@@ -73,28 +73,29 @@
                                 <div class="question__cat">
                                     <div class="question__q"><label for="name">お名前（漢字）<span
                                                 class="required-mark">必須</span></label></div>
-                                    <input class="question__text-box" type="text" id="name" name="name">
+                                    <input class="question__text-box" type="text" id="name" name="name" placeholder="例）山田 太郎">
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="name">お名前（ひらがな）<span
                                                 class="required-mark">必須</span></label></div>
-                                    <input class="question__text-box" type="text" id="name" name="name">
+                                    <input class="question__text-box" type="text" id="name" name="name" placeholder="例）やまだ　たろう">
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="email">メールアドレス<span
                                                 class="required-mark">必須</span></label></div>
-                                    <input class="question__text-box" type="mail" id="email" name="email">
+                                    <input class="question__text-box" type="mail" id="email" name="email" placeholder="例）sample@kawanapaint.co.jp">
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="name">電話番号<span
                                                 class="required-mark">必須</span></label></div>
-                                    <input class="question__text-box" type="tel" id="name" name="name">
+                                    <input class="question__text-box" type="tel" id="name" name="name" placeholder="例）123-456-7890">
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="name">住所<span
                                                 class="required-mark">必須</span></label></div>
-                                    〒<input class="question__text-box" type="text" id="name" name="name">
-                                    <select class="question__text-box" name="sushi">
+                                    〒<input class="question__text-box adjust_add adjust_space" type="text" id="name" name="name">
+                                    <select class="question__text-box adjust_space" name="sushi" placeholder="都道府県を選択">
+                                        <option value="magro">都道府県を選択</option>
                                         <option value="magro">北海道</option>
                                         <option value="ika">青森県</option>
                                         <option value="ebi">岩手県</option>
@@ -143,7 +144,7 @@
                                         <option value="ebi">鹿児島県</option>
                                         <option value="ebi">沖縄県</option>
                                     </select>
-                                    <input class="question__text-box" type="text" id="name" name="name">
+                                    <input class="question__text-box adjust_space" type="text" id="name" name="name">
                                     <input class="question__text-box" type="text" id="name" name="name">
                                 </div>
                                 <div class="question__cat">
