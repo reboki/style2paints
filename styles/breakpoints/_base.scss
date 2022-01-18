@@ -674,7 +674,12 @@ img {
         align-items: center;
         margin-top: 30px;
         margin-bottom: 20px;
-        padding-left: 35%;
+        padding-left: 38%;
+    }
+
+    &__area{
+        width:100%;
+        height: 80px;
     }
 
 }
@@ -702,4 +707,5 @@ img {
 .adjust_space{
     margin-bottom: 5px;
 }
+
 
