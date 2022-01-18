@@ -7,7 +7,6 @@ $cMenuOpen: $cBlack;
     right: 0;
     top: 100px;
     width: 300px;
-    z-index: 999;
 
     &__btn {
         background-color: unset;
@@ -30,6 +29,7 @@ $cMenuOpen: $cBlack;
     }
     &__cover {
         position: absolute;
+        font-size: 0px;
         top: 0;
         left: 0;
         width: 100%;
@@ -39,7 +39,8 @@ $cMenuOpen: $cBlack;
         visibility: hidden;
         transition: opacity 1s;
         cursor: pointer;
-        z-index: 999;
+        z-index: 200;
+
     }
     &__main {
         padding: 0;

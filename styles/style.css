@@ -460,7 +460,6 @@ a.btn-pc-sp--tel {
   right: 0;
   top: 100px;
   width: 300px;
-  z-index: 999;
 }
 
 .mobile-menu__btn {
@@ -488,6 +487,7 @@ a.btn-pc-sp--tel {
 
 .mobile-menu__cover {
   position: absolute;
+  font-size: 0px;
   top: 0;
   left: 0;
   width: 100%;
@@ -498,7 +498,7 @@ a.btn-pc-sp--tel {
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
   cursor: pointer;
-  z-index: 999;
+  z-index: 200;
 }
 
 .mobile-menu__main {
@@ -730,6 +730,8 @@ img {
   transition: -webkit-transform 0.5, -webkit-box-shadow 0.5s;
   transition: transform 0.5, box-shadow 0.5s;
   transition: transform 0.5, box-shadow 0.5s, -webkit-transform 0.5, -webkit-box-shadow 0.5s;
+  position: relative;
+  z-index: 10;
 }
 
 .header {
