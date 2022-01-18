@@ -1,3 +1,11 @@
+<?php
+$error =[];
+if ($_POST['name'] === '') {
+    $error['name'] = 'blank';
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -54,7 +62,7 @@
                     <main>
                         <section class="question">
                             <div class="question__title">お問い合わせフォーム</div>
-                            <form class="question__form" action="/form.php" method="post">
+                            <form class="question__form" action="contact.php" method="POST">
                                 <div class="question__cat1">
 
                                     <div class="question__q1"><label for="name">お問い合わせ内容<span
@@ -74,11 +82,15 @@
                                     <div class="question__q"><label for="name">お名前（漢字）<span
                                                 class="required-mark">必須</span></label></div>
                                     <input class="question__text-box" type="text" id="name" name="name" placeholder="例）山田 太郎">
+                                    <?php if ($error['name'] === 'blank'): ?> 
+                                        <p class="error_msg">お名前をご記入ください</p>
+                                    <?php endif; ?>
+                    
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="name">お名前（ひらがな）<span
                                                 class="required-mark">必須</span></label></div>
-                                    <input class="question__text-box" type="text" id="name" name="name" placeholder="例）やまだ　たろう">
+                                    <input class="question__text-box" type="text" id="name" name="name" placeholder="例）やまだ たろう">
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="email">メールアドレス<span
