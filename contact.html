@@ -53,47 +53,48 @@
                 <div id="main-content">
                     <main>
                         <section class="question">
-                            <div class="question__title">お問い合わせ</div>
+                            <div class="question__title">お問い合わせフォーム</div>
                             <form class="question__form" action="/form.php" method="post">
                                 <div class="question__cat">
 
                                     <div class="question__q"><label for="name">お問い合わせ内容<span
                                                 class="required-mark">必須</span></label></div>
                                     <div class="question__box">
-                                        <div class="question__cbox"><input id="money" class="question__check" type="checkbox" name=""
-                                                value="見積もり"><label for="money">見積もり</label></div>
-                                        <div class="question__cbox"><input id="discuss" class="question__check" type="checkbox" name=""
-                                                value="相談"><label for="discuss">相談</label></div>
-                                        <div class="question__cbox3"><input id="other" class="question__check" type="checkbox" name=""
-                                                value="その他"><label for="other">その他</label></div>
+                                        <div class="question__cbox"><input id="money" class="question__check"
+                                                type="checkbox" name="" value="見積もり"><label for="money">見積もり</label>
+                                        </div>
+                                        <div class="question__cbox"><input id="discuss" class="question__check"
+                                                type="checkbox" name="" value="相談"><label for="discuss">相談</label></div>
+                                        <div class="question__cbox3"><input id="other" class="question__check"
+                                                type="checkbox" name="" value="その他"><label for="other">その他</label></div>
                                     </div>
                                 </div>
-                                <div>お客様について教えてください</div>
+                                <div class="question__red-t">お客様について教えてください</div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="name">お名前（漢字）<span
-                                        class="required-mark">必須</span></label></div>
-                                    <input type="text" id="name" name="name">
+                                                class="required-mark">必須</span></label></div>
+                                    <input class="question__text-box" type="text" id="name" name="name">
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="name">お名前（ひらがな）<span
-                                        class="required-mark">必須</span></label></div>
-                                    <input type="text" id="name" name="name">
+                                                class="required-mark">必須</span></label></div>
+                                    <input class="question__text-box" type="text" id="name" name="name">
                                 </div>
-                                <div class="question__cat"> 
+                                <div class="question__cat">
                                     <div class="question__q"><label for="email">メールアドレス<span
-                                        class="required-mark">必須</span></label></div>
-                                    <input type="mail" id="email" name="email">
+                                                class="required-mark">必須</span></label></div>
+                                    <input class="question__text-box" type="mail" id="email" name="email">
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="name">電話番号<span
-                                        class="required-mark">必須</span></label></div>
-                                    <input type="tel" id="name" name="name">
+                                                class="required-mark">必須</span></label></div>
+                                    <input class="question__text-box" type="tel" id="name" name="name">
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="name">住所<span
-                                        class="required-mark">必須</span></label></div>
-                                    〒<input type="text" id="name" name="name">
-                                    <select name="sushi">
+                                                class="required-mark">必須</span></label></div>
+                                    〒<input class="question__text-box" type="text" id="name" name="name">
+                                    <select class="question__text-box" name="sushi">
                                         <option value="magro">北海道</option>
                                         <option value="ika">青森県</option>
                                         <option value="ebi">岩手県</option>
@@ -142,28 +143,30 @@
                                         <option value="ebi">鹿児島県</option>
                                         <option value="ebi">沖縄県</option>
                                     </select>
-                                    <input type="text" id="name" name="name">
-                                    <input type="text" id="name" name="name">
+                                    <input class="question__text-box" type="text" id="name" name="name">
+                                    <input class="question__text-box" type="text" id="name" name="name">
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="name">塗替えの建物種別</label></div>
-                                    <input id="" type="checkbox" name="" value="">一戸建て<label for=""></label>
-                                    <input id="" type="checkbox" name="" value="">マンション<label for=""></label>
-                                    <input id="" type="checkbox" name="" value="">店舗<label for=""></label>
-                                    <input id="" type="checkbox" name="" value="">工場<label for=""></label>
-                                    <input id="" type="checkbox" name="" value="">その他<label for=""></label>
+                                    <div class="question__box">
+                                        <div class="question__cbox"><input id="" class="question__check" type="checkbox" name="" value="">一戸建て<label for=""></label></div>
+                                        <div class="question__cbox"><input id="" class="question__check" type="checkbox" name="" value="">マンション<label for=""></label></div>
+                                        <div class="question__cbox"><input id="" class="question__check" type="checkbox" name="" value="">店舗<label for=""></label></div>
+                                        <div class="question__cbox"><input id="" class="question__check" type="checkbox" name="" value="">工場<label for=""></label></div>
+                                        <div class="question__cbox"><input id="" class="question__check" type="checkbox" name="" value="">その他<label for=""></label></div>
+                                    </div>
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="name">建物の坪数</label></div>
-                                    <input type="text" id="name" name="name">
+                                    <input class="question__text-box" type="text" id="name" name="name">
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="name">建物の築年数</label></div>
-                                    <input type="text" id="name" name="name">
+                                    <input class="question__text-box" type="text" id="name" name="name">
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="name">ご予算</label></div>
-                                    <input type="text" id="name" name="name">
+                                    <input class="question__text-box" type="text" id="name" name="name">
                                 </div>
                                 <div class="question__cat">
                                     <div class="question__q"><label for="message">ご要望・お問い合わせ</label></div>
@@ -173,7 +176,7 @@
                                     <div class="question__q"><label for="message">写真</label></div>
                                     <input type="file" name="example" accept="image/jpeg, image/png">
                                 </div>
-                                <input type="submit" value="送信する">
+                                <div class="question__submit"><input type="submit" value="送信する"></div>
                             </form>
                         </section>
 
