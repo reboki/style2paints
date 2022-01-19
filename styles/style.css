@@ -647,7 +647,7 @@ img {
   padding-bottom: 80px !important;
 }
 
-.content-width, .header__inner, .example, .work__inner, .please, .houses__btn {
+.content-width, .header__inner, .work__inner, .please, .houses__btn {
   width: 90%;
   margin: 0 auto;
   max-width: 1070px;
@@ -1086,7 +1086,7 @@ img {
 }
 
 .please {
-  margin-top: 80px;
+  margin-top: 20px;
   margin-bottom: 25px;
 }
 
@@ -1108,7 +1108,7 @@ img {
 }
 
 .houses {
-  margin-top: 10px;
+  margin-top: 80px;
   margin-bottom: 20px;
   background-color: white;
 }
@@ -1125,7 +1125,7 @@ img {
   height: 60px;
 }
 
-#button_font {
+.button_font {
   font-size: 15px;
 }
 
@@ -1361,6 +1361,10 @@ img {
 
 .adjust_space {
   margin-bottom: 5px;
+}
+
+#time {
+  font-size: 5px;
 }
 
 @media (min-width: 480px) {

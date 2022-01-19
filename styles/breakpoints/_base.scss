@@ -253,7 +253,7 @@ img {
     background-image: url(../images/trees.png);
     margin-bottom: 50px; 
     display: flex;
-    @extend .content-width;
+    //@extend .content-width;
     flex-direction: column;
 
     &__box1{
@@ -434,7 +434,7 @@ img {
 
 .please{
     @extend .content-width;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-bottom: 25px;
 
     &__box{
@@ -456,7 +456,7 @@ img {
 }
 
 .houses{
-    margin-top: 10px;
+    margin-top: 80px;
     margin-bottom: 20px;
     background-color: white;
 
@@ -474,7 +474,7 @@ img {
     height: 60px;
 }
 
-#button_font{
+.button_font{
 
     font-size: 15px;
 }
@@ -708,4 +708,7 @@ img {
     margin-bottom: 5px;
 }
 
+#time{
+    font-size: 5px;
+}
 
